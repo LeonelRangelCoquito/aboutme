@@ -9,9 +9,6 @@ body {
     padding: 0;
     background: linear-gradient(to left, blue, purple);
 }
-.ulnav{
-    display: inline-block;
-}
 
 header {
     background: linear-gradient(to right, rgb(10, 10, 43), rgb(39, 0, 39));
@@ -53,7 +50,12 @@ footer {
     text-align: left;
     color: white;
     background: linear-gradient(to right, rgb(10, 10, 43), rgb(39, 0, 39));
-    height: auto;
+    width: 98%;
+    border-radius: 40px;
+}
+#h2f{
+    padding-left: 35%;
+    padding-top: 10px;
 }
 ul{
     text-align: center;  
@@ -63,5 +65,8 @@ ul{
         position:relative;
         display: inline-block;
         padding: 10px;
-        font-size: 30px;
+        margin-left: 2px;
+        font-size: 3em;
+        
+        
 }
